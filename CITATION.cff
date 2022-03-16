@@ -1,0 +1,39 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: eossr
+message: >-
+  Please cite this dataset using the metadata from
+  'preferred-citation'.
+type: software
+authors:
+  - given-names: Thomas
+    family-names: Vuillaume
+    email: thomas.vuillaume@lapp.in2p3.fr
+    affiliation: 'Université Savoie Mont-Blanc, CNRS, LAPP'
+    orcid: 'https://orcid.org/0000-0002-5686-2078'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.5592584
+    description: Zenodo
+repository-code: 'https://gitlab.in2p3.fr/escape2020/wp3/eossr/'
+url: 'https://escape2020.pages.in2p3.fr/wp3/eossr/'
+abstract: >
+  The eOSSR Python library gathers all the
+  developments made for the OSSR. In particular, it
+  includes:
+  - an API to programmatically access the OSSR,
+  retrieve records and publish content
+  -  functions to map and crosswalk metadata between
+  the CodeMeta schema adopted for the OSSR and Zenodo
+  internal schema
+  - functions to help developers automatically
+  contribute to the OSSR, in particular using their
+  continuous integration (see also code snippets)
+keywords:
+  - jupyter-notebook
+  - zenodo
+license: MIT
+version: v0.5
+date-released: '2022-03-14'
