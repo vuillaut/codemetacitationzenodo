@@ -2,6 +2,8 @@
 
 Testing repository for the `CITATION.cff` metadata schema.
 
+![](https://lucid.app/publicSegments/view/939abfb2-685a-46ff-aa56-9dd7372ac371/image.png)
+
 ## Integration with Zenodo
 
 Zenodo recognize automatically the `CITATION.cff` file inside the repository and converts it through the GitHub-Zenodo integration.
