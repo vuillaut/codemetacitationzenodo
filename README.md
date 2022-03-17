@@ -1,10 +1,11 @@
-# codemetacitationzenodo
+# OSSR metadata converters
 
-Testing repository for the `CITATION.cff` metadata schema.
+Testing repository for metadata schemas.
 
-![](https://lucid.app/publicSegments/view/939abfb2-685a-46ff-aa56-9dd7372ac371/image.png)
+![](https://lucid.app/publicSegments/view/31f02de0-e92d-4839-b4df-8cbdcc3970a6/image.png)
 
-## Integration with Zenodo
+
+## `CITATION.cff` integration with Zenodo
 
 Zenodo recognize automatically the `CITATION.cff` file inside the repository and converts it through the GitHub-Zenodo integration.
 Resulting release: https://sandbox.zenodo.org/record/1035887
