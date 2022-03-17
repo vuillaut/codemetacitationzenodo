@@ -11,9 +11,10 @@ Zenodo recognize automatically the `CITATION.cff` file inside the repository and
 Resulting release: https://sandbox.zenodo.org/record/1035887
 
 
-## Conversions
+# Conversions
 
-### To CodeMeta
+## `CITATION.cff`...
+### ...to CodeMeta
 
 #### Through Zenodo
 After publication to Zenodo, one can export again to JSON-LD:
@@ -30,7 +31,7 @@ cffconvert -i CITATION.cff -f codemeta -o codemeta_cffconvert.json
 This works but here as well, the output schema is actually `schema.org` - even though it states CodeMeta schema.     
 Opened issue: https://github.com/citation-file-format/cff-converter-python/issues/272
 
-### To `.zenodo.json`
+### ...to `.zenodo.json`
 
 ```
 cffconvert -i CITATION.cff -f zenodo -o zenodo_cffconvert.json
@@ -38,12 +39,22 @@ cffconvert -i CITATION.cff -f zenodo -o zenodo_cffconvert.json
 
 Works.
 
+## CodeMeta...
 
-### From CodeMeta
+### ...to `CITATION.cff`
 
 #### codemeta2cff
 
 https://github.com/caltechlibrary/datatools
 
-- Does not work with the output of `cffconvert`
-- Works with the output of Zenodo
+- does not work with a codemeta generated with the online tool
+- does not work with the output of `cffconvert`
+- works with the output of Zenodo
+
+### ...to `.zenodo.json`
+
+#### eOSSR
+
+## JSON-LD schema.org...
+
+###  ?
