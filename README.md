@@ -2,7 +2,7 @@
 
 Testing repository for metadata schemas.
 
-![](https://lucid.app/publicSegments/view/31f02de0-e92d-4839-b4df-8cbdcc3970a6/image.png)
+[![](https://lucid.app/publicSegments/view/31f02de0-e92d-4839-b4df-8cbdcc3970a6/image.png)](https://lucid.app/lucidchart/f1b4a51a-8766-4bc1-915d-bf562c51123b/edit?invitationId=inv_32ce79ce-1a84-4848-8a74-4e724d9aff19&page=0_0#)
 
 
 ## `CITATION.cff` integration with Zenodo
